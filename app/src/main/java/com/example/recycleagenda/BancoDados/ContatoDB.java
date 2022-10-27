@@ -4,7 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.recycleagenda.Main.Contato;
+import com.example.recycleagenda.Entidades.Contato;
 
 import java.util.List;
 

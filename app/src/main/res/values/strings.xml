@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RecycleAgenda</string>
+    <string name="nome">Nome</string>
+    <string name="salvar">salvar</string>
+    <string name="telefone">Telefone</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">editar</string>
+    <string name="remover">remover</string>
 </resources>

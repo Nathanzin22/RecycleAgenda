@@ -1,4 +1,4 @@
-package com.example.recycleagenda.Main;
+package com.example.recycleagenda.Entidades;
 
     public class Contato {
         Integer id;

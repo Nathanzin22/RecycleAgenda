@@ -1,4 +1,4 @@
-package com.example.recycleagenda.Main;
+package com.example.recycleagenda;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,14 +6,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.recycleagenda.Agenda.Adapter;
+import com.example.recycleagenda.Entidades.Contato;
 import com.example.recycleagenda.BancoDados.ContatoDB;
 import com.example.recycleagenda.BancoDados.DBHelper;
-import com.example.recycleagenda.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.recycleagenda.Adapter;
+package com.example.recycleagenda.Agenda;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,16 +9,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.recycleagenda.Main.Contato;
+import com.example.recycleagenda.Entidades.Contato;
 import com.example.recycleagenda.R;
 
 import java.util.List;
 
-public class ContatoAdapter extends RecyclerView.Adapter<ContatoAdapter.ContatoHolder> {
+public class Adapter extends RecyclerView.Adapter<Adapter.ContatoHolder> {
 
     List<Contato> lista;
 
-    public ContatoAdapter(List<Contato> lista) {
+    public Adapter(List<Contato> lista) {
         this.lista = lista;
     }
 
